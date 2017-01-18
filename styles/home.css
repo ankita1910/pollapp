@@ -1,0 +1,51 @@
+.add-qs-popup {
+	display: none;
+}
+.qs-container {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+.qs-node {
+	background: #9c27b0;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	min-height: 220px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.qs-node .qs-body {
+	padding: 15px;
+	color: #fff;
+}
+.qs-node .qs-options {
+	padding: 20px;
+	padding-top: 10px;
+}
+.qs-node .qs-options .qs-opt {
+	padding-right: 20px;
+}
+.qs-node .record-response {
+	margin-left: 40px;
+	background: #f2f2f2;
+	color: #666;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px 10px;
+	width: 100px;
+	font-size: 13px;
+}
+.qs-node .qs-category {
+	padding: 15px 0px 0px 40px;
+	font-size: 13px;
+	float: left;
+}
+.qs-node .qs-username {
+	padding: 15px 0px 0px 40px;
+	font-size: 13px;
+	float: left;
+}
+.qs-node .qs-timestamp {
+	float: right;
+	padding: 20px 30px 0px 0px;
+	font-size: 13px;
+}

@@ -1,0 +1,72 @@
+.add-qs-popup {
+	display: none;
+}
+.qs-container {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+.qs-node {
+	background: #9c27b0;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	min-height: 180px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.qs-node .qs-body {
+	padding: 15px;
+	color: #fff;
+}
+.qs-node .qs-options {
+	padding: 20px;
+}
+.qs-node .qs-options .qs-opt {
+	padding-right: 20px;
+	float: left;
+}
+.qs-node .record-response {
+	margin-left: 40px;
+	background: #f2f2f2;
+	color: #666;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px 10px;
+	width: 200px;
+	font-size: 13px;
+	margin-top: 20px;
+}
+.qs-node .qs-category {
+	padding: 15px 0px 0px 40px;
+	font-size: 13px;
+	float: left;
+}
+.qs-node .qs-timestamp {
+	float: right;
+	padding: 20px 30px 0px 0px;
+	font-size: 13px;
+}
+.response-overlay-stats {
+	position: fixed;
+    width: 99%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    top: 0px;
+    display: none;
+}
+.response-overlay-stats .response-container {
+	width: 420px;
+    margin: auto;
+    margin-top: 20px;
+    background: #f2f2f2;
+}
+.response-container .heading {
+	background-color: #9c27b0;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.response-container .heading .__close {
+	float: right;
+	font-size: 20px;
+	cursor: pointer;
+}

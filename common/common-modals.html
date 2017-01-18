@@ -1,0 +1,45 @@
+<!-- Add question modal -->
+<div class="add-qs-popup">
+	<div class="popup-overlay">
+		<div class="popup-heading">
+			<span class="__text">Ask a Question</span>
+			<span class="__close">x</span>
+		</div>
+		<div class="addqs-container">
+			<div class="question-text" id="user_qs" contenteditable="true" placeholder="Ask your Question">Ask your Question
+			</div>
+			<div class="options">
+				<div class="option_1 option_node">
+					<label for="option1_content">Option 1</label>
+					<input type="text" id="option1_content">
+				</div>
+				<div class="option_2 option_node">
+					<label for="option2_content">Option 2</label>
+					<input type="text" id="option2_content">
+				</div>
+				<div class="option_3 option_node">
+					<label for="option3_content">Option 3</label>
+					<input type="text" id="option3_content">
+				</div>
+				<div class="option_4 option_node">
+					<label for="option4_content">Option 4</label>
+					<input type="text" id="option4_content">
+				</div>
+			</div>
+			<div class="qs-categorylist">
+				<span class="__text">Select Category</span>
+				<span class="category-node" onclick="selectCategory(this);">Politics</span>
+				<span class="category-node" onclick="selectCategory(this);">Literature</span>
+				<span class="category-node" onclick="selectCategory(this);">Current affairs</span>
+				<span class="category-node" onclick="selectCategory(this);">Bollywood</span>
+			</div>
+			<div class="action-btn" id="ask-qs-action">SUBMIT
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Confirmation / Error modal -->
+<div class="confm-message">
+</div>
+
